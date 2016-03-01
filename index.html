@@ -3,15 +3,15 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
     <title>AirBnB</title>
   </head>
   <body>
 
-    <header>
-      <nav>
-        <div class="title">
-          <img src="img/airlogo.png" alt="" />
-        </div>
+    <div class="wrapper">
+      <nav class="flex-nav">
+        <a href="#" class="toggleNav">☰ </a>
+        <img src="img/airlogo.png" alt="" />
         <ul>
           <li>Home</li>
           <li>Download the App</li>
@@ -24,8 +24,72 @@
       </nav>
     </header>
 
+    <div class="title">
+      <div class="welcome">
+        <h1>Welcome Home</h1>
+        <p>Rent unique places to stay from local hosts in 190+ countries.</p>
+      </div>
+
+      <div class="input">
+        <form  class="flex-form">
+          <input type="search" placeholder="Where do you want to go?">
+          <input type="submit" value="Search">
+          <div class="dates">
+            <label for="from">From</label>
+            <input type="date" name="from">
+
+            <label for="from">To</label>
+            <input type="date" name="to">
+
+            <select name="" id="">
+              <option value="1">1 Guest</option>
+              <option value="2">2 Guest</option>
+              <option value="3">3 Guest</option>
+              <option value="4">4 Guest</option>
+              <option value="5">5 Guest</option>
+            </select>
+
+
+          </div>
+        </form>
+      </div>
+
+    </div>
+
+
+
+    <div class="start">
+      <div class="bird">
+        <h1>Live There.</h1>
+      </div>
+      <div class="startText">
+        <h1>Start your adventure with <br> <span>$100</span></h1>
+        <button type="button" name="button">Live in a nest</button>
+        <p><a href="#">Terms and conditions</a> apply</p>
+      </div>
+    </div>
+
+    <div class="flex-column">
+      <h1>Just for the weekend</h1>
+      <p>Discover new, inspiring places close to home.</p>
+      <div class="newYork">
+        <h1>New York</h1>
+
+      </div>
+      <div class="juno">
+        <h1>Juno</h1>
+
+      </div>
+      <div class="bridge">
+        <h1>Boston</h1>
+
+      </div>
+    </div>
+
     <footer>
 
     </footer>
+    </div>
+
   </body>
 </html>
