@@ -69,6 +69,11 @@ ul {
   font-weight: bolder;
 }
 
+.input {
+  display: flex;
+  justify-content: center;
+}
+
 .flex-form > * {
   border:0;
   padding:10px;
@@ -78,6 +83,7 @@ ul {
   border-radius:0;
   outline:0;
   -webkit-appearance:none;
+
 }
 
 .flex-form {
@@ -85,12 +91,13 @@ ul {
 }
 
 input[type="search"] {
-  flex-basis: 400px;
+  display: flex;
+  width: 90%;
 }
 
-.dates {
+/*.dates {
   display: none;
-}
+}*/
 
 .start {
   width: 95%;
@@ -112,10 +119,6 @@ input[type="search"] {
   justify-content: center;
   color: white;
   font-size: 23px;
-}
-
-.bird h1 {
-
 }
 
 .start img {
